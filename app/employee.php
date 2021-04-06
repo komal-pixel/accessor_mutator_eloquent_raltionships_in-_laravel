@@ -14,5 +14,8 @@ class employee extends Model
 
 	public function one(){
 		return $this->hasOne('App\company');
+		// or
+		// return $this->hasMany('App\company');
+
 	}
 }
