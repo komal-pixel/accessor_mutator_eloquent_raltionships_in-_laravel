@@ -19,3 +19,5 @@ use App\Http\Controllers\mutator_accessor;
 
 Route::get('/','mutator_accessor@index');
 Route::get('insert','mutator_accessor@insert');
+Route::get('one','mutator_accessor@oneTOne');
+

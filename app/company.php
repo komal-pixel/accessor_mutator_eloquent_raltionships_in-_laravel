@@ -11,5 +11,5 @@ class company extends Model
 		return strtolower($value);
 	}
 	
-  
+	
 }

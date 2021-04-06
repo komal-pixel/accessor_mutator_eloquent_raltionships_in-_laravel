@@ -11,4 +11,8 @@ class employee extends Model
 	public function setNameAttribute($value){
 		$this->attributes['name'] = "miss".' '.$value;
 	}
+
+	public function one(){
+		return $this->hasOne('App\company');
+	}
 }

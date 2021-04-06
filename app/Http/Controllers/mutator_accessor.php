@@ -19,4 +19,8 @@ class mutator_accessor extends Controller
     	$employee->name="Nick";
     	$employee->save();
     }
+
+    public function oneTOne(){
+		return employee::Find(1)->one;
+	}
 }
